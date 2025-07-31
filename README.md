@@ -1,12 +1,51 @@
-# React + Vite
+# Taskify — Smart Task & Productivity Manager 🧠✅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taskify is a sleek and powerful task management application built using **React**, **Redux Toolkit**, **Firebase**, and **Material UI (MUI)**. It's designed to help users efficiently manage their daily tasks with features like prioritization, subtasks, tagging, and authentication.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+- 🔐 **Firebase Authentication**
+- 👤 **User specific login and signin option**
+- ✅ **Create, Edit, Delete Tasks**
+- 🎯 **Task Priority & Status**
+- 🔍 **Search, Filter & Tag Tasks**
+- 📁 **Responsive Layout with skeleton loader**
+- 💾 **Firestore Integration**
+- ⚙️ **Redux Toolkit State Management**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ React JS (Vite)
+- 💅 Material UI (MUI)
+- 🕸️ swiperjs
+- 🎞️ framer-motion
+- 🚀 Firebase Auth & Firestore
+- 🧠 Redux Toolkit
+- 🔍 TanStack Query (Optional)
+- 📁 React Router DOM
+
+---
+
+## 📸 Screenshots
+
+> ![alt text](Home.png)
+
+---
+
+## 🚀 Getting Started Locally
+
+```bash
+git clone https://github.com/your-username/taskify-react-app.git
+cd taskify-react-app
+npm install
+npm run dev
+
+
+🧑‍💻 Author
+Rajeev Kumar Saw
+🔗 My Portfolio - https://rajeev00005.github.io/portfolio/
+📧 kumar.rajeev0005@gmail.com
