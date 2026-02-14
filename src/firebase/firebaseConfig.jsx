@@ -3,14 +3,14 @@ import { initializeApp } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
 
-// ✅ Replace these with your actual Firebase config values
+// ✅ Firebase config loaded from environment variables
 const firebaseConfig = {
-  apiKey: "AIzaSyA3TMt5fPMlZpffYiAPRCb_PlIx3cFiKzk",
-  authDomain: "taskify-3a7da.firebaseapp.com",
-  projectId: "taskify-3a7da",
-  storageBucket: "taskify-3a7da.firebasestorage.app",
-  messagingSenderId: "8322090567",
-  appId: "1:8322090567:web:13a134891c6ab0b1335362"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
